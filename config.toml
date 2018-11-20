@@ -1,0 +1,4 @@
+baseURL = "https://docs.yourbase.io/"
+languageCode = "en-us"
+title = "YourBase Documentation"
+theme = "kraiklyn"
