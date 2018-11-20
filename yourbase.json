@@ -1,0 +1,14 @@
+{
+	"image": "ubuntu:latest",
+	"build" : {
+		"run": [
+			"sudo snap install hugo",
+			"hugo"
+		]
+	},
+	"deploy" : {
+		"run": [
+			"rsync -avz --delete public/ yves@192.241.154.85:www/"
+		]
+	}
+}
